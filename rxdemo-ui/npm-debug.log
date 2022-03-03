@@ -1,0 +1,646 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData aurelia-animator-css
+20 silly mapToRegistry name aurelia-animator-css
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry http://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'aurelia-animator-css',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'aurelia-animator-css',
+23 silly mapToRegistry   name: 'aurelia-animator-css',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri http://registry.npmjs.org/aurelia-animator-css
+25 silly fetchNamedPackageData aurelia-framework
+26 silly mapToRegistry name aurelia-framework
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry http://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'aurelia-framework',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'aurelia-framework',
+29 silly mapToRegistry   name: 'aurelia-framework',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri http://registry.npmjs.org/aurelia-framework
+31 silly fetchNamedPackageData aurelia-history-browser
+32 silly mapToRegistry name aurelia-history-browser
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry http://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'aurelia-history-browser',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'aurelia-history-browser',
+35 silly mapToRegistry   name: 'aurelia-history-browser',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri http://registry.npmjs.org/aurelia-history-browser
+37 silly fetchNamedPackageData aurelia-pal-browser
+38 silly mapToRegistry name aurelia-pal-browser
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry http://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'aurelia-pal-browser',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'aurelia-pal-browser',
+41 silly mapToRegistry   name: 'aurelia-pal-browser',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri http://registry.npmjs.org/aurelia-pal-browser
+43 silly fetchNamedPackageData aurelia-templating-binding
+44 silly mapToRegistry name aurelia-templating-binding
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry http://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'aurelia-templating-binding',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'aurelia-templating-binding',
+47 silly mapToRegistry   name: 'aurelia-templating-binding',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri http://registry.npmjs.org/aurelia-templating-binding
+49 silly fetchNamedPackageData aurelia-polyfills
+50 silly mapToRegistry name aurelia-polyfills
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry http://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'aurelia-polyfills',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'aurelia-polyfills',
+53 silly mapToRegistry   name: 'aurelia-polyfills',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri http://registry.npmjs.org/aurelia-polyfills
+55 silly fetchNamedPackageData aurelia-loader-default
+56 silly mapToRegistry name aurelia-loader-default
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry http://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'aurelia-loader-default',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'aurelia-loader-default',
+59 silly mapToRegistry   name: 'aurelia-loader-default',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri http://registry.npmjs.org/aurelia-loader-default
+61 silly fetchNamedPackageData aurelia-bootstrapper
+62 silly mapToRegistry name aurelia-bootstrapper
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry http://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'aurelia-bootstrapper',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'aurelia-bootstrapper',
+65 silly mapToRegistry   name: 'aurelia-bootstrapper',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri http://registry.npmjs.org/aurelia-bootstrapper
+67 silly fetchNamedPackageData aurelia-configuration
+68 silly mapToRegistry name aurelia-configuration
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry http://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'aurelia-configuration',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'aurelia-configuration',
+71 silly mapToRegistry   name: 'aurelia-configuration',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri http://registry.npmjs.org/aurelia-configuration
+73 silly fetchNamedPackageData aurelia-logging-console
+74 silly mapToRegistry name aurelia-logging-console
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry http://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'aurelia-logging-console',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'aurelia-logging-console',
+77 silly mapToRegistry   name: 'aurelia-logging-console',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri http://registry.npmjs.org/aurelia-logging-console
+79 silly fetchNamedPackageData aurelia-event-aggregator
+80 silly mapToRegistry name aurelia-event-aggregator
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry http://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'aurelia-event-aggregator',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'aurelia-event-aggregator',
+83 silly mapToRegistry   name: 'aurelia-event-aggregator',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri http://registry.npmjs.org/aurelia-event-aggregator
+85 silly fetchNamedPackageData aurelia-router
+86 silly mapToRegistry name aurelia-router
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry http://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'aurelia-router',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'aurelia-router',
+89 silly mapToRegistry   name: 'aurelia-router',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri http://registry.npmjs.org/aurelia-router
+91 silly fetchNamedPackageData aurelia-route-recognizer
+92 silly mapToRegistry name aurelia-route-recognizer
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry http://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'aurelia-route-recognizer',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   escapedName: 'aurelia-route-recognizer',
+95 silly mapToRegistry   name: 'aurelia-route-recognizer',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri http://registry.npmjs.org/aurelia-route-recognizer
+97 silly fetchNamedPackageData aurelia-fetch-client
+98 silly mapToRegistry name aurelia-fetch-client
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry http://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'aurelia-fetch-client',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   escapedName: 'aurelia-fetch-client',
+101 silly mapToRegistry   name: 'aurelia-fetch-client',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri http://registry.npmjs.org/aurelia-fetch-client
+103 silly fetchNamedPackageData bluebird
+104 silly mapToRegistry name bluebird
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry http://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'bluebird',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   escapedName: 'bluebird',
+107 silly mapToRegistry   name: 'bluebird',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri http://registry.npmjs.org/bluebird
+109 silly fetchNamedPackageData requirejs
+110 silly mapToRegistry name requirejs
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry http://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'requirejs',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   escapedName: 'requirejs',
+113 silly mapToRegistry   name: 'requirejs',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri http://registry.npmjs.org/requirejs
+115 silly fetchOtherPackageData text@github:requirejs/text#latest
+116 silly cache add args [ 'text@github:requirejs/text#latest', null ]
+117 verbose cache add spec text@github:requirejs/text#latest
+118 silly fetchNamedPackageData whatwg-fetch
+119 silly mapToRegistry name whatwg-fetch
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry http://registry.npmjs.org/
+122 silly mapToRegistry data Result {
+122 silly mapToRegistry   raw: 'whatwg-fetch',
+122 silly mapToRegistry   scope: null,
+122 silly mapToRegistry   escapedName: 'whatwg-fetch',
+122 silly mapToRegistry   name: 'whatwg-fetch',
+122 silly mapToRegistry   rawSpec: '',
+122 silly mapToRegistry   spec: 'latest',
+122 silly mapToRegistry   type: 'tag' }
+123 silly mapToRegistry uri http://registry.npmjs.org/whatwg-fetch
+124 verbose request uri http://registry.npmjs.org/aurelia-animator-css
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 23:13:35
+127 verbose request id 2b5fa2b8c38507b6
+128 http request GET http://registry.npmjs.org/aurelia-animator-css
+129 verbose request uri http://registry.npmjs.org/aurelia-framework
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 23:13:35
+132 http request GET http://registry.npmjs.org/aurelia-framework
+133 verbose request uri http://registry.npmjs.org/aurelia-history-browser
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 23:13:35
+136 http request GET http://registry.npmjs.org/aurelia-history-browser
+137 verbose request uri http://registry.npmjs.org/aurelia-pal-browser
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 23:13:35
+140 http request GET http://registry.npmjs.org/aurelia-pal-browser
+141 verbose request uri http://registry.npmjs.org/aurelia-templating-binding
+142 verbose request no auth needed
+143 info attempt registry request try #1 at 23:13:35
+144 http request GET http://registry.npmjs.org/aurelia-templating-binding
+145 verbose request uri http://registry.npmjs.org/aurelia-polyfills
+146 verbose request no auth needed
+147 info attempt registry request try #1 at 23:13:35
+148 http request GET http://registry.npmjs.org/aurelia-polyfills
+149 verbose request uri http://registry.npmjs.org/aurelia-loader-default
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 23:13:35
+152 http request GET http://registry.npmjs.org/aurelia-loader-default
+153 verbose request uri http://registry.npmjs.org/aurelia-bootstrapper
+154 verbose request no auth needed
+155 info attempt registry request try #1 at 23:13:35
+156 http request GET http://registry.npmjs.org/aurelia-bootstrapper
+157 verbose request uri http://registry.npmjs.org/aurelia-configuration
+158 verbose request no auth needed
+159 info attempt registry request try #1 at 23:13:35
+160 http request GET http://registry.npmjs.org/aurelia-configuration
+161 verbose request uri http://registry.npmjs.org/aurelia-logging-console
+162 verbose request no auth needed
+163 info attempt registry request try #1 at 23:13:35
+164 http request GET http://registry.npmjs.org/aurelia-logging-console
+165 verbose request uri http://registry.npmjs.org/aurelia-event-aggregator
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 23:13:35
+168 http request GET http://registry.npmjs.org/aurelia-event-aggregator
+169 verbose request uri http://registry.npmjs.org/aurelia-router
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 23:13:35
+172 http request GET http://registry.npmjs.org/aurelia-router
+173 verbose request uri http://registry.npmjs.org/aurelia-route-recognizer
+174 verbose request no auth needed
+175 info attempt registry request try #1 at 23:13:35
+176 http request GET http://registry.npmjs.org/aurelia-route-recognizer
+177 verbose request uri http://registry.npmjs.org/aurelia-fetch-client
+178 verbose request no auth needed
+179 info attempt registry request try #1 at 23:13:35
+180 http request GET http://registry.npmjs.org/aurelia-fetch-client
+181 verbose request uri http://registry.npmjs.org/bluebird
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 23:13:35
+184 http request GET http://registry.npmjs.org/bluebird
+185 verbose request uri http://registry.npmjs.org/requirejs
+186 verbose request no auth needed
+187 info attempt registry request try #1 at 23:13:35
+188 http request GET http://registry.npmjs.org/requirejs
+189 silly cache add parsed spec Result {
+189 silly cache add   raw: 'text@github:requirejs/text#latest',
+189 silly cache add   scope: null,
+189 silly cache add   escapedName: 'text',
+189 silly cache add   name: 'text',
+189 silly cache add   rawSpec: 'github:requirejs/text#latest',
+189 silly cache add   spec: 'github:requirejs/text#latest',
+189 silly cache add   type: 'hosted',
+189 silly cache add   hosted:
+189 silly cache add    { type: 'github',
+189 silly cache add      ssh: 'git@github.com:requirejs/text.git#latest',
+189 silly cache add      sshUrl: 'git+ssh://git@github.com/requirejs/text.git#latest',
+189 silly cache add      httpsUrl: 'git+https://github.com/requirejs/text.git#latest',
+189 silly cache add      gitUrl: 'git://github.com/requirejs/text.git#latest',
+189 silly cache add      shortcut: 'github:requirejs/text#latest',
+189 silly cache add      directUrl: 'https://raw.githubusercontent.com/requirejs/text/latest/package.json' } }
+190 verbose addRemoteGit caching github:requirejs/text#latest
+191 verbose addRemoteGit requirejs/text#latest is a repository hosted by github
+192 silly tryGitProto attempting to clone git://github.com/requirejs/text.git#latest
+193 silly tryClone cloning requirejs/text#latest via git://github.com/requirejs/text.git#latest
+194 verbose tryClone git-github-com-requirejs-text-git-latest-37804fea not in flight; caching
+195 verbose correctMkdir C:\Users\slawe\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+196 verbose request uri http://registry.npmjs.org/whatwg-fetch
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 23:13:35
+199 http request GET http://registry.npmjs.org/whatwg-fetch
+200 info git [ 'config', '--get', 'remote.origin.url' ]
+201 silly validateExistingRemote requirejs/text#latest remote.origin.url: git://github.com/requirejs/text.git
+202 verbose validateExistingRemote requirejs/text#latest is updating existing cached remote C:\Users\slawe\AppData\Roaming\npm-cache\_git-remotes\git-github-com-requirejs-text-git-latest-37804fea
+203 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+204 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+205 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+206 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+207 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+208 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+209 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+210 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+211 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+212 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+213 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+214 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+215 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+216 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+217 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+218 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+219 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+220 info git [ 'fetch', '-a', 'origin' ]
+221 verbose updateRemote git fetch -a origin (git://github.com/requirejs/text.git)
+222 verbose setPermissions requirejs/text#latest skipping chownr on Windows
+223 verbose resolveHead requirejs/text#latest original treeish: latest
+224 info git [ 'rev-list', '-n1', 'latest' ]
+225 silly resolveHead requirejs/text#latest resolved treeish: 3f9d4c19b3a1a3c6f35650c5788cbea1db93197a
+226 verbose resolveHead requirejs/text#latest resolved Git URL: git://github.com/requirejs/text.git#3f9d4c19b3a1a3c6f35650c5788cbea1db93197a
+227 silly resolveHead Git working directory: C:\Users\slawe\AppData\Local\Temp\npm-1568-b3ad0a76\git-cache-1861bb88\3f9d4c19b3a1a3c6f35650c5788cbea1db93197a
+228 info git [ 'clone',
+228 info git   'C:\\Users\\slawe\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-requirejs-text-git-latest-37804fea',
+228 info git   'C:\\Users\\slawe\\AppData\\Local\\Temp\\npm-1568-b3ad0a76\\git-cache-1861bb88\\3f9d4c19b3a1a3c6f35650c5788cbea1db93197a' ]
+229 verbose cloneResolved requirejs/text#latest clone Cloning into 'C:\Users\slawe\AppData\Local\Temp\npm-1568-b3ad0a76\git-cache-1861bb88\3f9d4c19b3a1a3c6f35650c5788cbea1db93197a'...
+229 verbose cloneResolved done.
+230 info git [ 'checkout', '3f9d4c19b3a1a3c6f35650c5788cbea1db93197a' ]
+231 verbose checkoutTreeish requirejs/text#latest checkout Note: switching to '3f9d4c19b3a1a3c6f35650c5788cbea1db93197a'.
+231 verbose checkoutTreeish
+231 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+231 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+231 verbose checkoutTreeish state without impacting any branches by switching back to a branch.
+231 verbose checkoutTreeish
+231 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+231 verbose checkoutTreeish do so (now or later) by using -c with the switch command. Example:
+231 verbose checkoutTreeish
+231 verbose checkoutTreeish   git switch -c <new-branch-name>
+231 verbose checkoutTreeish
+231 verbose checkoutTreeish Or undo this operation with:
+231 verbose checkoutTreeish
+231 verbose checkoutTreeish   git switch -
+231 verbose checkoutTreeish
+231 verbose checkoutTreeish Turn off this advice by setting config variable advice.detachedHead to false
+231 verbose checkoutTreeish
+231 verbose checkoutTreeish HEAD is now at 3f9d4c1 Rev to 2.0.16
+232 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+233 verbose updateSubmodules requirejs/text#latest submodule update
+234 verbose addLocalDirectory C:\Users\slawe\AppData\Roaming\npm-cache\text\2.0.16\package.tgz not in flight; packing
+235 verbose correctMkdir C:\Users\slawe\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+236 verbose tar pack [ 'C:\\Users\\slawe\\AppData\\Roaming\\npm-cache\\text\\2.0.16\\package.tgz',
+236 verbose tar pack   'C:\\Users\\slawe\\AppData\\Local\\Temp\\npm-1568-b3ad0a76\\git-cache-1861bb88\\3f9d4c19b3a1a3c6f35650c5788cbea1db93197a' ]
+237 verbose tarball C:\Users\slawe\AppData\Roaming\npm-cache\text\2.0.16\package.tgz
+238 verbose folder C:\Users\slawe\AppData\Local\Temp\npm-1568-b3ad0a76\git-cache-1861bb88\3f9d4c19b3a1a3c6f35650c5788cbea1db93197a
+239 verbose addLocalTarball adding from inside cache C:\Users\slawe\AppData\Roaming\npm-cache\text\2.0.16\package.tgz
+240 verbose correctMkdir C:\Users\slawe\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+241 verbose addRemoteGit data._from: requirejs/text#latest
+242 verbose addRemoteGit data._resolved: git://github.com/requirejs/text.git#3f9d4c19b3a1a3c6f35650c5788cbea1db93197a
+243 silly cache afterAdd text@2.0.16
+244 verbose afterAdd C:\Users\slawe\AppData\Roaming\npm-cache\text\2.0.16\package\package.json not in flight; writing
+245 verbose correctMkdir C:\Users\slawe\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+246 verbose afterAdd C:\Users\slawe\AppData\Roaming\npm-cache\text\2.0.16\package\package.json written
+247 silly resolveWithNewModule text@2.0.16 checking installable status
+248 info attempt registry request try #2 at 23:13:45
+249 http request GET http://registry.npmjs.org/aurelia-animator-css
+250 info attempt registry request try #2 at 23:13:45
+251 http request GET http://registry.npmjs.org/aurelia-framework
+252 info attempt registry request try #2 at 23:13:45
+253 http request GET http://registry.npmjs.org/aurelia-logging-console
+254 info attempt registry request try #2 at 23:13:45
+255 http request GET http://registry.npmjs.org/aurelia-loader-default
+256 info attempt registry request try #2 at 23:13:45
+257 http request GET http://registry.npmjs.org/aurelia-history-browser
+258 info attempt registry request try #2 at 23:13:45
+259 http request GET http://registry.npmjs.org/aurelia-route-recognizer
+260 info attempt registry request try #2 at 23:13:45
+261 http request GET http://registry.npmjs.org/whatwg-fetch
+262 info attempt registry request try #2 at 23:13:45
+263 http request GET http://registry.npmjs.org/aurelia-fetch-client
+264 info attempt registry request try #2 at 23:13:45
+265 http request GET http://registry.npmjs.org/bluebird
+266 info attempt registry request try #2 at 23:13:45
+267 http request GET http://registry.npmjs.org/requirejs
+268 info attempt registry request try #2 at 23:13:45
+269 http request GET http://registry.npmjs.org/aurelia-bootstrapper
+270 info attempt registry request try #2 at 23:13:45
+271 http request GET http://registry.npmjs.org/aurelia-polyfills
+272 info attempt registry request try #2 at 23:13:45
+273 http request GET http://registry.npmjs.org/aurelia-pal-browser
+274 info attempt registry request try #2 at 23:13:45
+275 http request GET http://registry.npmjs.org/aurelia-templating-binding
+276 info attempt registry request try #2 at 23:13:45
+277 http request GET http://registry.npmjs.org/aurelia-router
+278 info attempt registry request try #2 at 23:13:45
+279 http request GET http://registry.npmjs.org/aurelia-configuration
+280 info attempt registry request try #2 at 23:13:45
+281 http request GET http://registry.npmjs.org/aurelia-event-aggregator
+282 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+283 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+284 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+285 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+286 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+287 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+288 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+289 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+290 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+291 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+292 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+293 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+294 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+295 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+296 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+297 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+298 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+299 info attempt registry request try #3 at 23:14:45
+300 http request GET http://registry.npmjs.org/aurelia-polyfills
+301 info attempt registry request try #3 at 23:14:45
+302 http request GET http://registry.npmjs.org/aurelia-history-browser
+303 info attempt registry request try #3 at 23:14:45
+304 http request GET http://registry.npmjs.org/aurelia-framework
+305 info attempt registry request try #3 at 23:14:45
+306 http request GET http://registry.npmjs.org/aurelia-loader-default
+307 info attempt registry request try #3 at 23:14:45
+308 http request GET http://registry.npmjs.org/whatwg-fetch
+309 info attempt registry request try #3 at 23:14:45
+310 http request GET http://registry.npmjs.org/aurelia-route-recognizer
+311 info attempt registry request try #3 at 23:14:45
+312 http request GET http://registry.npmjs.org/aurelia-animator-css
+313 info attempt registry request try #3 at 23:14:45
+314 http request GET http://registry.npmjs.org/aurelia-logging-console
+315 info attempt registry request try #3 at 23:14:45
+316 http request GET http://registry.npmjs.org/aurelia-event-aggregator
+317 info attempt registry request try #3 at 23:14:45
+318 http request GET http://registry.npmjs.org/aurelia-templating-binding
+319 info attempt registry request try #3 at 23:14:45
+320 http request GET http://registry.npmjs.org/aurelia-pal-browser
+321 info attempt registry request try #3 at 23:14:45
+322 http request GET http://registry.npmjs.org/requirejs
+323 info attempt registry request try #3 at 23:14:45
+324 http request GET http://registry.npmjs.org/bluebird
+325 info attempt registry request try #3 at 23:14:45
+326 http request GET http://registry.npmjs.org/aurelia-configuration
+327 info attempt registry request try #3 at 23:14:45
+328 http request GET http://registry.npmjs.org/aurelia-bootstrapper
+329 info attempt registry request try #3 at 23:14:45
+330 http request GET http://registry.npmjs.org/aurelia-router
+331 info attempt registry request try #3 at 23:14:45
+332 http request GET http://registry.npmjs.org/aurelia-fetch-client
+333 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+333 silly fetchPackageMetaData
+333 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+333 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+333 silly fetchPackageMetaData  error for aurelia-loader-default@^1.0.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+333 silly fetchPackageMetaData
+333 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+333 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+334 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+334 silly fetchPackageMetaData
+334 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+334 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+334 silly fetchPackageMetaData  error for whatwg-fetch@^2.0.3 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+334 silly fetchPackageMetaData
+334 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+334 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+335 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+335 silly fetchPackageMetaData
+335 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+335 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+335 silly fetchPackageMetaData  error for aurelia-route-recognizer@^1.3.2 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+335 silly fetchPackageMetaData
+335 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+335 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+336 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+336 silly fetchPackageMetaData
+336 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+336 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+336 silly fetchPackageMetaData  error for aurelia-framework@^1.1.5 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+336 silly fetchPackageMetaData
+336 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+336 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+337 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+337 silly fetchPackageMetaData
+337 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+337 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+337 silly fetchPackageMetaData  error for aurelia-templating-binding@^1.1.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+337 silly fetchPackageMetaData
+337 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+337 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+338 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+338 silly fetchPackageMetaData
+338 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+338 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+338 silly fetchPackageMetaData  error for aurelia-animator-css@^1.0.1 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+338 silly fetchPackageMetaData
+338 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+338 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+339 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+339 silly fetchPackageMetaData
+339 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+339 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+339 silly fetchPackageMetaData  error for aurelia-logging-console@^1.0.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+339 silly fetchPackageMetaData
+339 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+339 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+340 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+340 silly fetchPackageMetaData
+340 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+340 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+340 silly fetchPackageMetaData  error for aurelia-router@^1.7.1 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+340 silly fetchPackageMetaData
+340 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+340 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+341 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+341 silly fetchPackageMetaData
+341 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+341 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+341 silly fetchPackageMetaData  error for aurelia-polyfills@^1.1.1 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+341 silly fetchPackageMetaData
+341 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+341 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+342 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+342 silly fetchPackageMetaData
+342 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+342 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+342 silly fetchPackageMetaData  error for bluebird@^3.4.1 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+342 silly fetchPackageMetaData
+342 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+342 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+343 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+343 silly fetchPackageMetaData
+343 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+343 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+343 silly fetchPackageMetaData  error for aurelia-fetch-client@^1.1.2 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+343 silly fetchPackageMetaData
+343 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+343 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+344 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+344 silly fetchPackageMetaData
+344 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+344 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+344 silly fetchPackageMetaData  error for aurelia-bootstrapper@^2.1.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+344 silly fetchPackageMetaData
+344 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+344 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+345 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+345 silly fetchPackageMetaData
+345 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+345 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+345 silly fetchPackageMetaData  error for aurelia-event-aggregator@^1.0.3 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+345 silly fetchPackageMetaData
+345 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+345 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+346 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+346 silly fetchPackageMetaData
+346 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+346 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+346 silly fetchPackageMetaData  error for aurelia-configuration@^1.0.17 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+346 silly fetchPackageMetaData
+346 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+346 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+347 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+347 silly fetchPackageMetaData
+347 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+347 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+347 silly fetchPackageMetaData  error for aurelia-history-browser@^1.1.1 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+347 silly fetchPackageMetaData
+347 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+347 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+348 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+348 silly fetchPackageMetaData
+348 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+348 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+348 silly fetchPackageMetaData  error for requirejs@^2.3.2 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+348 silly fetchPackageMetaData
+348 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+348 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+349 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+349 silly fetchPackageMetaData
+349 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+349 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14)
+349 silly fetchPackageMetaData  error for aurelia-pal-browser@^1.1.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+349 silly fetchPackageMetaData
+349 silly fetchPackageMetaData     at exports._errnoException (util.js:1022:11)
+349 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:801:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+350 silly rollbackFailedOptional Starting
+351 silly rollbackFailedOptional Finishing
+352 silly runTopLevelLifecycles Finishing
+353 silly install printInstalled
+354 verbose stack Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+354 verbose stack
+354 verbose stack     at exports._errnoException (util.js:1022:11)
+354 verbose stack     at WriteWrap.afterWrite (net.js:801:14)
+355 verbose cwd D:\testpyramidexample-master\rxdemo-ui
+356 error Windows_NT 10.0.19042
+357 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+358 error node v6.10.0
+359 error npm  v3.10.10
+360 error code EPROTO
+361 error errno EPROTO
+362 error syscall write
+363 error write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2032:
+364 error If you need help, you may report this error at:
+364 error     <https://github.com/npm/npm/issues>
+365 verbose exit [ 1, true ]

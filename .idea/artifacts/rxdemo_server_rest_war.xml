@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rxdemo-server-rest:war">
+    <output-path>$PROJECT_DIR$/rxdemo-server/rest/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>rxdemo-server-rest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="rxdemo-api.war">
+      <element id="artifact" artifact-name="rxdemo-server-rest:war exploded" />
+    </root>
+  </artifact>
+</component>
